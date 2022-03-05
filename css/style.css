@@ -1,0 +1,13 @@
+
+
+.body{
+    background-color: gray;
+
+}
+#text {
+    text-align: center;
+    color: white;
+}
+.img {
+    float: left;
+}
