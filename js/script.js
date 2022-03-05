@@ -1,19 +1,14 @@
 
-// var akan = function (year,month,date){
+var submit = document.getElementById = ('submit');
+submit.addEventListener('click', ()=>{
+    var month = document.getElementById('month').value;
+    var date = document.getElementById('date').value;
+    var year = document.getElementById('year').value;
+    var dayBirth = new Date(`${year}-${month}-${date}`);
+    alert(dayBirth);
 
-//     var olddate = new Date(year,--month,day);
-// var year = useryear;
-// var month = usermonth;
-// var date = userDate;
-
-
-// }
-// var useryear = Number(prompt('Enter year of birth'));
-// var userdate = Number(prompt('Enter date of birth'));
-// var usermonth = Number(prompt('enter month of birth'));
-// alert(akan);
-
-document.getElementById('date')
+}
+)
 
 
 
