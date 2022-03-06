@@ -1,20 +1,40 @@
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .body{
-    background-color: gray;
+    
 
 }
 #text {
     text-align: center;
     color: white;
+    font-weight: bolder;
 }
 .img {
     float: left;
 }
-.container {
+* .background {
     margin-top: 50px;
-    im
+    font-weight: 800;
+    margin-left: 15px;
+    color: rgb(10, 10, 10);
+    
+}
+.container {
+    margin-top: 70px;
+   
+
 }
 #img2 {
     float: right;
+}
+.container-fluid {
+    background-image: url(../ASSETS/IMG/CULTURE.jpg);
+    background-size: cover;
+    opacity: 40px;
+}
+.col-6 paragrah{
+    font-weight: bolder;
 }
