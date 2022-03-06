@@ -9,6 +9,16 @@ submit.addEventListener('click', ()=>{
 
 }
 )
+function calculate(){
+    var cc = year. value.slice(0,2);
+    var yy = year.value.slice(2,3);
+    var date = date.value;
+    var month = month.value;
+
+
+
+
+}
 
 
 
