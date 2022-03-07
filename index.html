@@ -30,8 +30,33 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
-
-                <form id="form">
+                <div class="form text-center col-6">
+                    <form id="form_data">
+                        <div class="form-group row">
+                            <label class="label-control ">Enter your date of birth:</label>
+                            <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value="" placeholder="Enter your dateofbirth"><br/>
+                        </div>
+                
+                        <div class="form-group row">
+                            <label>Choose your gender:</label>
+                            <select id="gender" class="form-control form-control-sm">
+                                <option>Choose your gender</option>
+                                <option>Male</option>
+                                <option>Female</option><br>
+                            </select>
+                        </div>
+                        <div class="row2">
+                
+                            <button type="button" class="btn btn-success btn-sm" value="submit" onclick="akanNames()">Generate Akan</button>
+                
+                        </div>
+                        <!-- Result output -->
+                
+                        <p id="display" class="col-md-12"></p>
+                
+                    </form>
+                </div>
+                <!-- <form id="form">
                     <input type="date" name="name" min="1960 -1 -1" max="2022 -12 -1" required>
                     <br>
                 
@@ -41,7 +66,7 @@
                     <label for="female">Female</label><br>
                     <input type="radio" name="gender" value="female">
                     <button id="btn">Submit</button>
-                   </form>
+                   </form> -->
     <!-- <form>
         <h3>Fill in your relevant details inside this form section and<br>
         click on the 'Generate Akan' button to discover Your Akan Name</h3><br>
