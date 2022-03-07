@@ -30,8 +30,19 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
-      
-    <form>
+
+                <form id="form">
+                    <input type="date" name="name" min="1960 -1 -1" max="2022 -12 -1" required>
+                    <br>
+                
+                    <p>Please Select Gender:</p>
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="gender" value="male" required><br>
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="gender" value="female">
+                    <button id="btn">Submit</button>
+                   </form>
+    <!-- <form>
         <h3>Fill in your relevant details inside this form section and<br>
         click on the 'Generate Akan' button to discover Your Akan Name</h3><br>
         <strong>Gender: <select  id="gender"> 
@@ -42,7 +53,7 @@
         Month: <input id="month" type="number"><br><br>
         Year:  <input id="year" type="number"><br><br>
        <input id="submit" type="button" value="submit">
-    </form>
+    </form> -->
 </div>
 <!-- <div class="col-6" id="img2"> -->
     
